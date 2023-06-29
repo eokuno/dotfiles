@@ -10,13 +10,18 @@ xcode-select --install
 # Rosettaのインストール
 #---------------------------------------------
 echo "Rosettaをインストールします..."
-sudo softwareupdate --install-rosetta --agree-to-licensesudo softwareupdate --install-rosetta --agree-to-license
+sudo softwareupdate --install-rosetta --agree-to-license
 
 #---------------------------------------------
 # Homebrewのインストール
 #---------------------------------------------
 echo "Homebrewをインストールします..."
 which /opt/homebrew/bin/brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# which brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 必要？
+# echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/e.okuno/.zprofile
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "brew doctorを実行します..."
 which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew doctor

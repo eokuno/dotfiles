@@ -24,7 +24,7 @@ which asdf >/dev/null 2>&1 && asdf plugin add nodejs && asdf install nodejs late
 which asdf >/dev/null 2>&1 && asdf plugin add php && asdf install php latest && asdf global php latest
 which asdf >/dev/null 2>&1 && asdf plugin add python && asdf install python latest && asdf global python latest
 which asdf >/dev/null 2>&1 && asdf plugin add kotlin && asdf install kotlin latest && asdf global kotlin latest
-which asdf >/dev/null 2>&1 && asdf plugin add java && asdf install java lastest
+which asdf >/dev/null 2>&1 && asdf plugin add java && asdf install java lastest  && asdf global java latest
 which asdf >/dev/null 2>&1 && asdf plugin add rust && asdf install rust latest && asdf global rust latest
 
 # Terraformのインストール
