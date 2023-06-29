@@ -1,7 +1,7 @@
 # Dotfiles
 ## 実行コマンド
 ```bash
-bash -c "$( curl -fsSL https://raw.github.com/$eokuno/dotfiles/master/setup.sh )"
+bash -c "$( curl -fsSL https://raw.github.com/eokuno/dotfiles/master/setup.sh )"
 ```
 
 ## リポジトリ構成
