@@ -1,0 +1,17 @@
+### ignore all ###
+/*
+/.**
+
+### not ignore ###
+!/.Brewfile
+!/.gitconfig
+!/setup.sh
+!/.zshrc
+!/.zprofile
+!/_link.sh
+!/_asdf.sh
+!/_anyenv.sh
+
+!/README.md
+!/LICENCE
+!.gitignore
